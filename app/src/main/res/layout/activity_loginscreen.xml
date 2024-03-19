@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gabu2"
+    tools:context=".loginscreen">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+
+
+        android:scaleType="fitXY"
+        android:src="@drawable/appbackgroundone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/aladin"
+        android:text="Explore endless knowledge with our intuitive app."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/emailloginscreen"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/edittext"
+
+        android:fontFamily="sans-serif"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/passwordloginscreen"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="sans-serif"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Signinbtnloginscreen"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/passwordloginscreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="sans-serif"
+        android:text="Log in"
+        android:textColor="@color/white"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Signinbtnloginscreen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Don't have an account?"
+        android:textColor="@color/white"
+
+
+        android:textSize="20dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/signuploginscreenn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Signinbtnloginscreen"
+        android:layout_alignBottom="@+id/Signinbtnloginscreen"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="-66dp"
+        android:layout_toEndOf="@+id/textView6"
+
+
+        android:fontFamily="sans-serif"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:textColor="@color/sea_green"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

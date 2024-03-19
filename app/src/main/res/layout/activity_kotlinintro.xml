@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/codebg"
+    tools:context=".javascriptintro">
+
+
+    <TextView
+        android:id="@+id/what_is_javascript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="What is Kotlin?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        tools:ignore="MissingConstraints">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="161dp"
+        android:layout_marginTop="100dp"
+        android:text="Kotlin, a statically typed language developed by JetBrains, offers concise syntax, seamless interoperability with Java, robust null safety, and versatility. Widely used in Android and server-side development, it enhances developer productivity and code reliability across various domains due to its modern features and improved developer experience."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <FrameLayout
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="240dp">
+
+        <VideoView
+            android:id="@+id/kotlin_introduction_video"
+            android:layout_width="450dp"
+            android:layout_height="match_parent">
+
+        </VideoView>
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+
+

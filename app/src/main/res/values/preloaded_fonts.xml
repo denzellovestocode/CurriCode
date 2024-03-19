@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro</item>
+        <item>@font/aladin</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/allan</item>
+        <item>@font/almendra_display</item>
+        <item>@font/andika</item>
+        <item>@font/arsenal</item>
+        <item>@font/assistant_light</item>
+        <item>@font/asul</item>
+        <item>@font/bellefair</item>
+        <item>@font/libre_franklin_extralight</item>
+    </array>
+</resources>

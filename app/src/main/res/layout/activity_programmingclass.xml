@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".programmingclass">
+
+
+
+
+    <ImageView
+        android:id="@+id/programmingpage"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/programmingbacklesson"/>
+
+
+    <TextView
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROGRAMMING LANGUAGES"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="6dp"
+
+
+
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/javascriptimg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/javascriptimg1"
+        app:strokeWidth="3dp"
+        app:shapeAppearanceOverlay="@style/circular"
+        android:scaleType="fitXY"
+
+
+
+        />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:src="@drawable/rightarrow"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/javascript"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/javascriptimg"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Javascript"
+        android:textColor="@color/light_blue"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+
+
+        />
+    <TextView
+        android:id="@+id/javascriptdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+JavaScript: Dynamic scripting language powering interactive web development experiences worldwide."
+        android:fontFamily="@font/libre_franklin_extralight"
+        android:layout_below="@id/programmingpage"
+        android:layout_marginLeft="180dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+
+        android:textStyle="bold"
+
+
+        />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/kotlinimg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/kotlinimg"
+        app:strokeWidth="3dp"
+        app:shapeAppearanceOverlay="@style/circular"
+        android:scaleType="fitXY"
+
+
+
+        />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:src="@drawable/rightarrow"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="150dp"
+
+
+        />
+    <TextView
+        android:id="@+id/koltindescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Kotlin: Modern, concise language for robust Android and backend development"
+        android:fontFamily="@font/libre_franklin_extralight"
+        android:layout_below="@id/javascriptdescription"
+        android:layout_marginLeft="180dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:id="@+id/kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kotlinimg"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="sans-serif"
+        android:text="Kotlin"
+        android:textColor="@color/light_blue"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+
+
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/pythomimg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="660dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pythonimg"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeWidth="3dp"
+
+
+        />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:src="@drawable/rightarrow"
+        android:layout_marginTop="710dp"
+        android:layout_marginLeft="150dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/pythondescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/koltindescription"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/libre_franklin_extralight"
+        android:text="
+Python: Powerful, versatile language for software development, data analysis, and automation tasks."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:id="@+id/python"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pythomimg"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="sans-serif"
+        android:text="Python"
+
+        android:textColor="@color/light_blue"
+        android:textSize="20dp"
+
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+</RelativeLayout>

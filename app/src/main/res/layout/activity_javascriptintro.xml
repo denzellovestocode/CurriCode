@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/codebg"
+    tools:context=".javascriptintro">
+
+
+    <TextView
+        android:id="@+id/what_is_javascript"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="What is Javascript?"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:text="JavaScript is a high-level, dynamically typed programming language primarily used for client-side web development. It enables interactive and dynamic content on web pages, handling events, manipulating the DOM (Document Object Model), and communicating with servers asynchronously using AJAX. JavaScript is also used in server-side development (Node.js), game development, and more. Below is a video giving you a brief introduction to javascript"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="270sp">
+
+        <VideoView
+            android:id="@+id/java_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</RelativeLayout>
+
+

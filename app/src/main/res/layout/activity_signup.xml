@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gabu2"
+    tools:context=".signup">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/appbackgroundone"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/assistant"
+        android:text="Explore endless knowledge with our intuitive app."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/emailsignupscreen"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/andika"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/passwordsignup"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/andika"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/confirmpasswordsignup"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/passwordsignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/andika"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />.
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Signupbtnsignupscreen"
+        android:layout_width="280dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/confirmpasswordsignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/andika"
+        android:textAllCaps="true"
+        android:text="Sign up"
+        android:textColor="@color/white"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Signupbtnsignupscreen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/andika"
+        android:text="Already have an account?"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/signinsignupscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Signupbtnsignupscreen"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/andika"
+        android:textStyle="bold"
+        android:text="SIGN IN"
+        android:textColor="@color/sea_green"
+        android:textSize="20dp"
+
+
+        />
+
+
+</RelativeLayout>

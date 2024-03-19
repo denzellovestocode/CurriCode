@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".dashboard">
+
+
+    <ImageView
+        android:id="@+id/dowlnoadbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ddd" />
+
+
+    <TextView
+        android:id="@+id/welcomedashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+
+        android:background="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="Welcome to CurriCode Dashboard!"
+        android:textAlignment="center"
+        android:textColor="@color/light_blue"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/mainimgddash"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_below="@id/welcomedashboard"
+        android:scaleType="fitXY"
+
+        android:src="@drawable/dashboard3"
+
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cbcimg1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/books"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeWidth="3dp"
+
+
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:src="@drawable/rightarrow"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/cbcdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainimgddash"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="
+Kenya's CBC curriculum fosters critical thinking, creativity, and practical skills for diverse career pathways"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/cbcoverviewtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbcimg1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center"
+        android:gravity="center"
+
+        android:text="cbc course"
+
+
+        android:textAlignment="center"
+        android:textColor="@color/light_blue"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/programmingimg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/cbcoverviewtext"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/coding"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeWidth="3dp"
+
+
+        />
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="640dp"
+        android:src="@drawable/rightarrow"
+
+
+        />
+
+    <TextView
+        android:id="@+id/programmingdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbcdescription"
+
+
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Master coding fundamentals and advanced concepts with our comprehensive programming course for aspiring developers"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/programmingoverviewtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/programmingimg"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Programming"
+
+
+        android:textAlignment="center"
+        android:textColor="@color/light_blue"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

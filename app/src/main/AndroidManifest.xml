@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/appbackground"
+        android:label="CurriCode"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.Kojpy"
+        tools:targetApi="31">
+        <activity
+            android:name=".downloadapp"
+            android:exported="false" />
+        <activity
+            android:name=".kotlinlesson2"
+            android:exported="false" />
+        <activity
+            android:name=".development"
+            android:exported="false" />
+        <activity
+            android:name=".javatopics"
+            android:exported="false" />
+        <activity
+            android:name=".pythontopics"
+            android:exported="false" />
+        <activity
+            android:name=".kotlintopics"
+            android:exported="false" />
+        <activity
+            android:name=".kotlinlesson1"
+            android:exported="false" />
+        <activity
+            android:name=".topics"
+            android:exported="false" />
+        <activity
+            android:name=".numbersnotes"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".gradeone"
+            android:exported="false" />
+        <activity
+            android:name=".HygieneGradeOne"
+            android:exported="false" />
+        <activity
+            android:name=".EnvironmentalGradeOne"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishGradeOne"
+            android:exported="false" />
+        <activity
+            android:name=".MathematicsGradeOne"
+            android:exported="false" />
+        <activity
+            android:name=".Science_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".sciencequiz"
+            android:exported="false" />
+        <activity
+            android:name=".QuizStart"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResults"
+            android:exported="false" />
+        <activity
+            android:name=".numbersvideo"
+            android:exported="false" />
+        <activity
+            android:name=".numbersteachpage"
+            android:exported="false" />
+        <activity
+            android:name=".loginscreen"
+            android:exported="false" />
+        <activity
+            android:name=".gradefour"
+            android:exported="false" />
+        <activity
+            android:name=".gradethree"
+            android:exported="false" />
+        <activity
+            android:name=".gradetwo"
+            android:exported="false" />
+        <activity android:name=".QuizActivity">
+
+            <!-- Remove intent filter for MAIN and LAUNCHER -->
+        </activity>
+        <activity
+            android:name=".assignments"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".kotlinintro"
+            android:exported="false" />
+        <activity
+            android:name=".javascriptintro"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@layout/activity_javascriptintro" />
+
+        <activity
+            android:name=".pythonintro"
+            android:exported="false" />
+        <activity
+            android:name=".programmingclass"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
